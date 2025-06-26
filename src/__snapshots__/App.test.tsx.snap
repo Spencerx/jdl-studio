@@ -123,30 +123,28 @@ exports[`renders default snapshot 1`] = `
                   |
                 </i>
               </span>
-              <select
-                class="template-select"
-              >
-                <option
+              bound HTMLSelectElement {
+                "0": <option
                   value=""
                 >
                   &lt;Select template&gt;
-                </option>
-                <option
+                </option>,
+                "1": <option
                   value="default sample"
                 >
                   default sample
-                </option>
-                <option
+                </option>,
+                "2": <option
                   value="simple monolith"
                 >
                   simple monolith
-                </option>
-                <option
+                </option>,
+                "3": <option
                   value="simple microservice"
                 >
                   simple microservice
-                </option>
-              </select>
+                </option>,
+              }
             </div>
             <div
               class="tools-inner"
@@ -225,7 +223,6 @@ exports[`renders default snapshot 1`] = `
           />
           <div
             class="line-marker"
-            style=""
           />
           <div
             class="react-codemirror2 code-mirror-editor"
@@ -241,9 +238,8 @@ exports[`renders default snapshot 1`] = `
                   autocapitalize="off"
                   autocorrect="off"
                   spellcheck="false"
-                  style="position: absolute; bottom: -1em; padding: 0px; width: 1px; height: 1em; min-height: 1em; outline-color: none; outline-style: none; outline-width: initial;"
+                  style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; min-height: 1em; outline-color: none; outline-style: none; outline-width: initial;"
                   tabindex=""
-                  wrap="off"
                 />
               </div>
               <div
@@ -310,6 +306,7 @@ exports[`renders default snapshot 1`] = `
                           >
                             <span
                               role="presentation"
+                              style="padding-right: 0.1px;"
                             >
                               <span
                                 cm-text=""
@@ -354,7 +351,7 @@ exports[`renders default snapshot 1`] = `
           <span
             class="error-tooltip"
           >
-            canvas.getContext is not a function
+            Cannot set properties of null (setting 'font')
           </span>
           <div
             class="canvas-tools"
@@ -726,30 +723,28 @@ exports[`renders default snapshot 1`] = `
                 |
               </i>
             </span>
-            <select
-              class="template-select"
-            >
-              <option
+            bound HTMLSelectElement {
+              "0": <option
                 value=""
               >
                 &lt;Select template&gt;
-              </option>
-              <option
+              </option>,
+              "1": <option
                 value="default sample"
               >
                 default sample
-              </option>
-              <option
+              </option>,
+              "2": <option
                 value="simple monolith"
               >
                 simple monolith
-              </option>
-              <option
+              </option>,
+              "3": <option
                 value="simple microservice"
               >
                 simple microservice
-              </option>
-            </select>
+              </option>,
+            }
           </div>
           <div
             class="tools-inner"
@@ -828,7 +823,6 @@ exports[`renders default snapshot 1`] = `
         />
         <div
           class="line-marker"
-          style=""
         />
         <div
           class="react-codemirror2 code-mirror-editor"
@@ -844,9 +838,8 @@ exports[`renders default snapshot 1`] = `
                 autocapitalize="off"
                 autocorrect="off"
                 spellcheck="false"
-                style="position: absolute; bottom: -1em; padding: 0px; width: 1px; height: 1em; min-height: 1em; outline-color: none; outline-style: none; outline-width: initial;"
+                style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; min-height: 1em; outline-color: none; outline-style: none; outline-width: initial;"
                 tabindex=""
-                wrap="off"
               />
             </div>
             <div
@@ -913,6 +906,7 @@ exports[`renders default snapshot 1`] = `
                         >
                           <span
                             role="presentation"
+                            style="padding-right: 0.1px;"
                           >
                             <span
                               cm-text=""
@@ -957,7 +951,7 @@ exports[`renders default snapshot 1`] = `
         <span
           class="error-tooltip"
         >
-          canvas.getContext is not a function
+          Cannot set properties of null (setting 'font')
         </span>
         <div
           class="canvas-tools"
